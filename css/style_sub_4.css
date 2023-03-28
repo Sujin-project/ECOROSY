@@ -1,0 +1,54 @@
+#community {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.community {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.community li {
+    margin-bottom: 60px;
+}
+
+.community li img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 상세페이지 꾸미기 */
+
+#community p {
+    margin-bottom: 50px;
+    padding: 20px 0;
+    border-top: 2px solid #bbccc3;
+    border-bottom: 2px solid #bbccc3;
+    text-align: center;
+    font-size: 36px;
+}
+
+.detail {
+    margin-bottom: 50px;
+}
+
+/* 목록가기 버튼 */
+.list_button {
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+.list_button a {
+    display: inline-block;
+    color: #000;
+    width: 100px; 
+    background-color: #ccc;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}

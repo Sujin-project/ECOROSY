@@ -1,0 +1,186 @@
+/* 서브1_소개 */
+#sub_content1 {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.sub1_content {
+    margin-bottom: 80px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.sub_brand {
+    padding-left: 30px;
+}
+
+.sub_brand p {
+    padding-bottom: 20px;
+}
+
+/* 핵심가치 */
+#sub_value {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.sub_value {
+    border: #0d271a solid 5px;
+    padding: 0 50px 50px 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sub_value h4 {
+    padding: 15px 0;
+}
+
+.sub_value span {
+    color: #000;
+    font-size: 48px;
+}
+
+.sub_text {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* 연혁 */
+#sub_history {
+    width: 1320px;
+    margin: 80px auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+#sub_history>h1 {
+    width: 100%;
+}
+
+.history {
+    margin-bottom: 50px;
+}
+
+.history_left {
+    text-align: left;
+}
+
+.history_right {
+    text-align: right;
+}
+
+.history h3 {
+    font-size: 70px;
+    color: #a8bdbb;
+    margin-bottom: 20px;
+    padding: 0 40px;
+}
+
+.history h5 {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.history p {
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.text_left {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #cae6e4;
+}
+
+.text_right {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #a8bdbb;
+}
+
+.history_2020 {
+    border-radius: 40px 40px 0;
+}
+
+.history_2021 {
+    border-radius: 40px 40px 40px 0;
+}
+
+.history_2022 {
+    border-radius: 40px 0px 40px 40px;
+}
+
+.history_2023 {
+    border-radius: 0px 40px 40px;
+}
+
+
+/* 자원봉사자 모집 */
+#support {
+    width: 1320px;
+    height: 720px;
+    margin: 0 auto;
+    background: url(../1.introdution/4.voluteer.jpg) no-repeat center;
+    margin-bottom: 100px;
+}
+
+.support {
+    padding: 100px 60px;
+}
+
+.support h2 {
+    color: #0d271a;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.support h3 span {
+    color: #073b20;
+    font-size: 48px;
+}
+
+.support h3 {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.support p {
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+.download {
+    display: inline-block;
+    text-align: center;
+    background-color: #0d271a;
+    padding: 25px 60px;
+    margin: 30px 0;
+    border-radius: 30px 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.download:hover {
+    background-color: #cae6e4;
+    color: #000;
+}

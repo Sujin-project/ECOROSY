@@ -1,0 +1,113 @@
+/* 서브 3 상품 */
+#product {
+    border-bottom: #bbccc3 10px solid;
+}
+
+.product {
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.best_green {
+    color: #073b20;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.items {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items>li:nth-child(2),
+.items>li:nth-child(5),
+.items>li:nth-child(8) {
+    margin: 0 30px;
+}
+
+.items ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.items ul li {
+    color: #787878;
+    padding: 2px 5px 8px 5px;
+    font-size: 16px;
+}
+
+.items .black {
+    color: #000;
+    font-size: 20px;
+}
+
+.product_line {
+    border-bottom: #ccc solid 3px;
+}
+
+.items .best {
+    width: 70px;
+    background-color: #cae6e4;
+    color: #b24b19;
+    border-radius: 50px 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items .new {
+    width: 70px;
+    background-color: #a8bdbb;
+    color: #073b20;
+    border-radius: 50px 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items .img li {
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.img li:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+.img li img {
+    display: block;
+    transition: all 1s;
+}
+
+/* 전체 상품 소개 */
+.product_inner {
+    width: 1320px;
+    margin: 20px auto;
+}
+
+.items_inner {
+    margin-bottom: 20px;
+}
+
+.product_gray {
+    color: #787878;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 0 20px;
+}
+
+/* 배너 */
+.product_banner {
+    width: 1320px;
+    margin: 100px auto;
+}
